@@ -2,7 +2,7 @@
 {% block content %}
     <header role="banner" class="site-head">
         <h1 class="header"> 
-            <img class="header__logo" src="/assets/images/logo.svg" alt="PersonalSit.es" />
+            <img class="header__logo" width="255" height="24" src="/assets/images/logo.svg" alt="PersonalSit.es" />
         </h1>
         <article class="content">
             <button class="theme-toggle" aria-label="Toggle color theme">
@@ -60,6 +60,11 @@
             {% endfor %}
         </ul>
     </main>
+    <svg xmlns="http://www.w3.org/2000/svg">
+        <symbol id="arrow-up-right" viewBox="0 0 13 13">
+            <path id="arrow-up-right" fill-rule="evenodd" clip-rule="evenodd" d="M9.58586 2H1.00008V0H13.0001V12H11.0001V3.41421L1.70718 12.7071L0.292969 11.2929L9.58586 2Z"/>
+        </symbol>
+    </svg>
 {% endblock %}
 
 
